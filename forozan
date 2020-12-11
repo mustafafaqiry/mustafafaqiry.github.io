@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Assignment</title>
+	<style type="text/css">
+		table{
+			border:2px solid green;
+			background-color: SlateBlue;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>
+		<form>
+	<table>
+		<h2>Studetn Registration Form For Web Development Course</h2>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="" required></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Father Name:</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Email Address:</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Date of Birth:</td>
+			<td><input type="Date" name="" max="2020-12-30" min="1999-1-1"></td>
+		</tr>
+		<tr>
+			<td>Age:</td>
+			<td><input type="number" name=""></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td><input type="radio" name="Gender" checked="">Male
+			<input type="radio" name="Gender">Femail</td>
+		</tr>
+		<tr>
+			<td>Student Photo:</td>
+			<td><input type="file" name=""></td>
+		</tr>
+		<tr>
+			<td>Courses:</td>
+			<td>
+				<select name="Courses">
+					<option>Web Development</option>
+					<option>NEtwork</option>
+					<option>Java</option>
+					<option>Phyton</option>
+					<option>C++</option>
+					<option>Software</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Language:</td>
+			<td>
+				<input type="checkbox" name="English" checked="">English
+				<input type="checkbox" name="Dari" checked="">Dari
+				<input type="checkbox" name="Pahto">Pahto
+			</td>
+		</tr>
+		<tr>
+			<td>Start Date and Time:</td>
+			<td><input type="Datetime-local" name=""></td>
+		</tr>
+		<tr>
+			<td>End Date and Time:</td>
+			<td><input type="Datetime-local" name=""></td>
+		</tr>
+		<tr>
+			<td>University:</td>
+			<td>
+				<input type="text" name="University" value="Kateb University" disabled>
+			</td>
+		</tr>
+		<tr>
+			<td>Number of Credit:</td>
+			<td>
+				<input type="number" name="Credit" max="21" min="17" required>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" name="submit" value="Register">
+				<input type="reset" name="reset" value="Clear">
+			</td>
+		</tr>
+	</table>
+</form>
+	</div>
+	<p style="color: green;font-size: 30px">Forozan Majroh    ID: 99378006</p>
+
+</body>
+</html>
