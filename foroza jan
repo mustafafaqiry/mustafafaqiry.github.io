@@ -5,7 +5,7 @@
 	<style type="text/css">
 		table{
 			border:2px solid green;
-			background-color: SlateBlue;
+		background-color: SlateBlue;
 		}
 		
 	</style>
