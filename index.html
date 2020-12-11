@@ -1,67 +1,105 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html>
 <head>
-	<title>HTML Formatting tags </title>
+	<title>Second Assignment</title>
+	<style type="text/css">
+		table{
+			border:2px solid green;
+			background-color: SlateBlue;
+		}
+		
+	</style>
 </head>
-<style>
-.free{
-	font-size: 30px;
-	 font-family: "Calibri";
-  background-color: NavajoWhite;
-  color: white;
-  margin: 20px;
-  padding: 20px;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:  orange;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111111;
-}
-</style>
-
 <body>
-	<a href="#0p">Go to bottom</a>
-	<h1 align="center" style="color: green;font-family: serif;"><ins>IN THE NAME OF ALLAH</ins></h1>
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-	<h2 align="center" style="font-size: 80px;background-color: orange">Forozan😉</h2>
-	<pre class="free" align="center">
-		ببار ای باران، ببار که غم از دلم رفتنی نیست
-اشک های روی گونه ام دیدنی نیست
-
-ببار ای باران که این تنهایی تمام شدنی نیست
-آن لحظه های زیبا تکرار شدنی نیست
-
-ببار ای باران که شعر تلخ جدایی خواندنی نیست
-غم تلخی که در سینه دارم فراموش شدنی نیست
-</pre>
-	<p style="font-size: 40px;color: red;">For more information click <a title="www.w3c.com" href="https://www.facebook.com/foro.zan.900" target="_blank">Here</a></p>
-	<a target="_blank" href="https://github.com/mustafa4321/mustafa4321.github.io/issues/1#issue-752917020"> <img src="https://user-images.githubusercontent.com/49608945/100543178-41feb380-326c-11eb-8dfc-bf93b2283164.jpg" alt="computer" style="width:px;height:250px;"> </a>
-	<p style="font-size: 80px" id="0p">Battom</p>
-	
-
+	<div>
+		<form>
+	<table>
+		<h2>Studetn Registration Form For Web Development Course</h2>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="" required></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Father Name:</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Email Address:</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Date of Birth:</td>
+			<td><input type="Date" name="" max="2020-12-30" min="1999-1-1"></td>
+		</tr>
+		<tr>
+			<td>Age:</td>
+			<td><input type="number" name=""></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td><input type="radio" name="Gender" checked="">Male
+			<input type="radio" name="Gender">Femail</td>
+		</tr>
+		<tr>
+			<td>Student Photo:</td>
+			<td><input type="file" name=""></td>
+		</tr>
+		<tr>
+			<td>Courses:</td>
+			<td>
+				<select name="Courses">
+					<option>Web Development</option>
+					<option>NEtwork</option>
+					<option>Java</option>
+					<option>Phyton</option>
+					<option>C++</option>
+					<option>Software</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Language:</td>
+			<td>
+				<input type="checkbox" name="English" checked="">English
+				<input type="checkbox" name="Dari" checked="">Dari
+				<input type="checkbox" name="Pahto">Pahto
+			</td>
+		</tr>
+		<tr>
+			<td>Start Date and Time:</td>
+			<td><input type="Datetime-local" name=""></td>
+		</tr>
+		<tr>
+			<td>End Date and Time:</td>
+			<td><input type="Datetime-local" name=""></td>
+		</tr>
+		<tr>
+			<td>University:</td>
+			<td>
+				<input type="text" name="University" value="Kateb University" disabled>
+			</td>
+		</tr>
+		<tr>
+			<td>Number of Credit:</td>
+			<td>
+				<input type="number" name="Credit" max="21" min="17" required>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" name="submit" value="Register">
+				<input type="reset" name="reset" value="Clear">
+			</td>
+		</tr>
+	</table>
+</form>
+	</div>
+	<p style="color: green;font-size: 30px">Forozan Majroh    ID: 99378006</p>
 
 </body>
 </html>
