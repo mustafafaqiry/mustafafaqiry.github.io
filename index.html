@@ -1,105 +1,72 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Second Assignment</title>
-	<style type="text/css">
-		table{
-			border:2px solid green;
-		background-color: SlateBlue;
-		}
-		
-	</style>
-</head>
-<body>
-	<div>
-		<form>
-	<table>
-		<h2>Studetn Registration Form For Web Development Course</h2>
-		<tr>
-			<td>First Name:</td>
-			<td><input type="text" name="" required></td>
-		</tr>
-		<tr>
-			<td>Last Name:</td>
-			<td><input type="text" name=""></td>
-		</tr>
-		<tr>
-			<td>Father Name:</td>
-			<td><input type="text" name=""></td>
-		</tr>
-		<tr>
-			<td>Email Address:</td>
-			<td><input type="text" name=""></td>
-		</tr>
-		<tr>
-			<td>Date of Birth:</td>
-			<td><input type="Date" name="" max="2020-12-30" min="1999-1-1"></td>
-		</tr>
-		<tr>
-			<td>Age:</td>
-			<td><input type="number" name=""></td>
-		</tr>
-		<tr>
-			<td>Gender:</td>
-			<td><input type="radio" name="Gender" checked="">Male
-			<input type="radio" name="Gender">Femail</td>
-		</tr>
-		<tr>
-			<td>Student Photo:</td>
-			<td><input type="file" name=""></td>
-		</tr>
-		<tr>
-			<td>Courses:</td>
-			<td>
-				<select name="Courses">
-					<option>Web Development</option>
-					<option>NEtwork</option>
-					<option>Java</option>
-					<option>Phyton</option>
-					<option>C++</option>
-					<option>Software</option>
-				</select>
-			</td>
-		</tr>
-		<tr>
-			<td>Language:</td>
-			<td>
-				<input type="checkbox" name="English" checked="">English
-				<input type="checkbox" name="Dari" checked="">Dari
-				<input type="checkbox" name="Pahto">Pahto
-			</td>
-		</tr>
-		<tr>
-			<td>Start Date and Time:</td>
-			<td><input type="Datetime-local" name=""></td>
-		</tr>
-		<tr>
-			<td>End Date and Time:</td>
-			<td><input type="Datetime-local" name=""></td>
-		</tr>
-		<tr>
-			<td>University:</td>
-			<td>
-				<input type="text" name="University" value="Kateb University" disabled>
-			</td>
-		</tr>
-		<tr>
-			<td>Number of Credit:</td>
-			<td>
-				<input type="number" name="Credit" max="21" min="17" required>
-			</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>
-				<input type="submit" name="submit" value="Register">
-				<input type="reset" name="reset" value="Clear">
-			</td>
-		</tr>
-	</table>
-</form>
-	</div>
-	<p style="color: green;font-size: 30px">Forozan Majroh    ID: 99378006</p>
 
-</body>
-</html>
+<style>
+  .back {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation-name: backdiv;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+  }
+
+  .heart {
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: tomato;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    animation-name: beat;
+    animation-duration: 1s;
+
+  }
+  .heart:after {
+    background-color: tomato;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart:before {
+    background-color: tomato;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
+  @keyframes backdiv {
+    50% {
+      background: #ffe6f2;
+    }
+  }
+
+  @keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+  }
+
+</style>
+<div class="back"></div>
+<div class="heart"></div>
