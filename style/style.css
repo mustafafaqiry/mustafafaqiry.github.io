@@ -139,7 +139,7 @@ a{
 /* welcome section */
 
 #welcome-section{
-    background-image: url(/images/my-image.JPG);
+    background-image: url(https://github.com/mustafa4321/My_File/blob/photos/my-image.jpg?raw=true);
     background-size: cover;
     background-position: top center;
     position: relative; 
