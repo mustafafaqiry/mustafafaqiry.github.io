@@ -139,7 +139,7 @@ a{
 /* welcome section */
 
 #welcome-section{
-    background-image: url(./images/my-image.JPG);
+    background-image: url(/images/my-image.JPG);
     background-size: cover;
     background-position: top center;
     position: relative; 
